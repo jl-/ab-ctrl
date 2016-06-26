@@ -3,8 +3,8 @@
 ```
 npm i ab-ctrl --save
 ```
-
 ---
+
 ```javascript
 import React, { Component } from 'react';
 
@@ -29,6 +29,8 @@ class Demo extends Component {
   }
 }
 ```
+
+```javascript
 <ABCtrl
   triggerType // string, 'hover|click'
   interactive // boolean,
@@ -49,7 +51,7 @@ class Demo extends Component {
 </ABCtrl>
 ```
 
-```
+```javascript
 // special usage for singleton tooltip
 import TooltipSingleton from 'ab-ctrl/tooltip/singleton';
 
@@ -58,5 +60,4 @@ import TooltipSingleton from 'ab-ctrl/tooltip/singleton';
 
 //
 <span data-tooltip='Tooltip content' data-tooltip-align='bc'>bottom center</span>
-
 ```

@@ -42,12 +42,12 @@ class Demo extends Component {
   <ABCtrl.Trigger
     component // react component or tag, default is 'div'
   >
+  </ABCtrl.Trigger>
   <ABCtrl.Content
     align // string, 'tl|tc|tr|rt|rc|rb|br|bc|bl|lb|lc|lt'
     onClick // function => should close on content click or not
   >
   </ABCtrl.Content>
-  </ABCtrl.Trigger>
 </ABCtrl>
 ```
 
